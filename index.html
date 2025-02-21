@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leche Sith</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #000;
+            color: white;
+        }
+        .header {
+            background-color: #d32f2f;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .button {
+            display: inline-block;
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        img {
+            width: 80%;
+            max-width: 300px;
+            margin: 10px 0;
+            cursor: pointer;
+        }
+    </style>
+    <script>
+        function showMessageOne() {
+            alert("Bienvenido al lado oscuro, la leche que endulzará tu vida");
+        }
+        function showMessageTwo() {
+            alert("Esta leche la tomó Darth Vader!!!! y si la tomas serás como Él.");
+        }
+    </script>
+</head>
+<body>
+    <audio autoplay loop>
+        <source src="CancionStarWars.mp3" type="audio/mpeg">
+    </audio>
+    <div class="header">SIENTE EL LADO OSCURO DE LA LECHE</div>
+    <div class="content">
+        <h2>Prueba la nueva Leche Sith</h2>
+        <p>COMPRUEBA TODOS LOS BENEFICIOS QUE TIENE</p>
+        <ul>
+            <li>Fuente de Calcio</li>
+            <li>Proteínas de Alta Calidad</li>
+            <li>Vitaminas A y D</li>
+            <li>Vitaminas del Grupo B</li>
+            <li>Fósforo</li>
+            <li>Hidratación</li>
+            <li>Mejora la digestión</li>
+        </ul>
+        <img src="LecheStarWars.png" alt="Leche Sith" onclick="showMessageOne()">
+        <img src="LecheStarWars2.png" alt="Leche Sith Chocolate" onclick="showMessageTwo()">
+        <p>ADQUIERE NUESTROS PRODUCTOS</p>
+        <p>Contáctanos: 9992 57 89 20</p>
+    </div>
+    <div class="footer">&copy; 2025 Leche Sith. Todos los derechos reservados.</div>
+</body>
+</html>
